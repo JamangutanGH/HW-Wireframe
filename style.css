@@ -3,66 +3,79 @@ body {
    color:#777;
    background:#777;
    width:960px;
+   margin-left: 15%;
+   margin-right: 5%;
+   margin-bottom: 10%;
+   margin-top: 1%;
 }
 
 header {   
 text-align: center;
 font-size:18px;
-padding-top: 50px;
-padding-right: 30px;
-padding-bottom: 50px;
-padding-left: 80px;
 background: #ebebeb;
+height: 100px;
 }
 
 nav {
 text-align: center;
 font-size:18px;
-padding-top: 50px;
-padding-right: 30px;
-padding-bottom: 50px;
-padding-left: 80px;
-background: #ebebeb;    
+background: #ebebeb; 
+height: 100px;
+margin-bottom: 25px;   
 }
 
 article {
 text-align: center;
-color: #777;
-background: #ebebeb;
+color: #ebebeb;
+background: #777;
+height: 170px;
+width: 450px;
+margin-left: 10%;
+margin-top: 30%;
 }
 
 h1 {
 text-align: center;
 color: #777;
 background: #ebebeb;
+margin: 2%;
+margin-top: 10%;
+height: 40px;
 }
 
 p {
+height: 40px;
+margin: 2%;
 text-align: center;
 color: #777;
 background: #ebebeb;
 }
 
 section {
-width: 495px;
-color: #ebebeb;
-background: #777;
+height: 400px;
+text-align: center;
+float: left;
+width:55%;
+color: #777;
+background:#ebebeb;
 }
 
-section {
-text-align: center;
-color: #ebebeb;
-background: #777;
-}
 
 aside {
-text-align: center;
-color: #ebebeb;
-background: #777;
+    height: 400px;
+    width: 44%;
+    float: right;
+    text-align: center;
+    color: #777;
+    background:#ebebeb;
+    margin-bottom: 25px;
 }
 
 footer {
+clear: both;
 text-align: center;
 color:#777;
 background:#ebebeb;
+width: 960px;
+height: 100px;
 }
